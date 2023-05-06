@@ -9,4 +9,4 @@ Muito obrigado!
 
 ## **QR_Code do Site**
 
-!(./img/icons/Mulheres Tech_QRcode.svg")
+!(icons/Mulheres Tech_QRcode.svg)
