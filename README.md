@@ -9,4 +9,4 @@ Muito obrigado!
 
 ## **QR_Code do Site**
 
-!(![Mulheres Tech](https://user-images.githubusercontent.com/83614778/236594262-b3681baa-ba34-4747-9fb6-69ff9c187084.png))
+![Mulheres Tech](https://user-images.githubusercontent.com/83614778/236594262-b3681baa-ba34-4747-9fb6-69ff9c187084.png)
