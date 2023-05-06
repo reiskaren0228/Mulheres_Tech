@@ -9,4 +9,4 @@ Muito obrigado!
 
 ## **QR_Code do Site**
 
-!<img src="./img/icons/Mulheres Tech_QRcode.svg" alt="menu" width="43px" height="45px">
+!(./img/icons/Mulheres Tech_QRcode.svg")
