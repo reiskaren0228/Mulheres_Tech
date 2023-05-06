@@ -1,5 +1,4 @@
-# WoMakers_Projeto
-
+# **WoMakers_Projeto**
 
 Gostaria de agradecer especialmente à Womakers pelo valioso conhecimento e ensinamentos que nos proporcionaram sobre mulheres inovadoras na tecnologia. 
 
@@ -7,6 +6,7 @@ Suas aulas e recursos ajudaram a aprimorar minha compreensão e apreciação pel
 
 Muito obrigado!
 
-# QR_Code do Site
 
-<img src="./img/icons/Mulheres Tech_QRcode.svg" alt="menu" width="43px" height="45px">
+## **QR_Code do Site**
+
+!<img src="./img/icons/Mulheres Tech_QRcode.svg" alt="menu" width="43px" height="45px">
