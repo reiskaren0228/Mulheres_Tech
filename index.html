@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icons/favicon-32x32.png"  type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/toast.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/pagina_1.css">
+
+    <title>Mulheres Tech</title>
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <nav class="nav_header">
+
+            <div class="menu-toggle">
+                <img src="./img/icons/menu-oficial.png" alt="menu" width="43px" height="40px">
+            </div>
+            
+            <h1>Mulheres Tech</h1>
+
+            <div class="logo" aria-details="logo">
+                <a href="/inicio.html">
+                    <img class ="img__log" src="./img/imgs/logo.png" alt="logo" >
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+        <main>
+
+            <section class="menu__ham">
+                <ul class="menu__ham__content">
+                    <li>
+                        <img src="./img/imgs/logo.png" alt="logo_login" width="100px" height="100px">
+                    </li>
+                    
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./sobreNos.html">Sobre Nós</a></li>
+                    <li><a href="./graceHopper.html">Grace Hooper</a></li>
+                    <li><a href="./grazielaMaciel.html">Graziela Maciel</a></li>
+                    <li><a href="./cynthiaZanoni.html">Cynthia Zanoni</a></li>
+                    <li><a href="./personaVoce.html">Próxima Mulher Tech</a></li>
+                    <li><a href="./agradecimentos.html">Agradecimentos</a></li>
+                </ul>
+            </section>
+   
+            <section class="section__highlights"> <!--Destaques-->
+                <p class="txt__Main">👩🏼‍💻 As Super Mulheres da Tecnologia 👩🏻‍💻 </p>
+                <section class="slider-container">
+
+                    <div class="arrowButton" aria-details="left-arrow">
+                        <img src="img/icons/iflecha-right.png" alt="seta_esquerda" width="50px" height="50px">
+                    </div>
+
+                    <div class="slider-carrousel">
+
+                        <div class="section__persona">
+                            <img class="section__persona__img" src="img/imgs/Graziela_Barroso.jpg" alt="foto_graziela_barroso" >
+                            <p class="section__persona__description">Graziela Barroso</p>
+                            <h3 class="txt__description">De dona de casa a pioneira na botânica...</h3>
+                            <button class="section__persona__button"><a href="grazielaMaciel.html">Saber + </a></button>
+                        </div>
+    
+                        <div class="section__persona">
+                            <img class="section__persona__img" src="img/imgs/Grace_Hopper.jpg" alt="foto_grace_hopper">
+                            <p class="section__persona__description">Grace Hopper</p>
+                            <h3 class="txt__description">De Militar dos EUA para uma das primeiras programadoras...</h3>
+                            <button class="section__persona__button"><a href="graceHopper.html">Saber + </a></button>
+                        </div>
+
+                        <div class="section__persona">
+                            <img class="section__persona__img" src="img/imgs/Cynthia_womakers.png" alt="foto_cynthia_womakers" >
+                            <p class="section__persona__description">Cynthia Zanoni</p>
+                            <h3 class="txt__description">De Engenheira de Software à realizadora de sonhos de Mulheres Devs...</h3>
+                            <button class="section__persona__button"><a href="cynthiaZanoni.html">Saber + </a></button>
+                        </div>
+                       
+                        <div class="section__persona">
+                            <img class="section__persona__img" src="img/imgs/persona.jpg" alt="foto_proxima_tech" width="180px" height="140px">
+                            <p class="section__persona__description">Você</p>
+                            <h3 class="txt__description">A próxima mulher tech revolucionária na área de tecnologia...</h3>
+                            <button class="section__persona__button"><a href="cynthiaZanoni.html">Saber + </a></button>
+                        </div>
+                           
+                    </div>
+
+                    <div class="arrowButton" aria-details="right-arrow">
+                        <img src="img/icons/iflecha-right.png" alt="seta_direita" width="50px" height="50px">
+                    </div>
+
+                </section>
+
+            </section>
+    
+            <section class="section__newsletter">
+                <p class="section__newsletter__title">Inscreva-se para receber mais notícias sobre Mulheres Tech:</p>
+    
+                <form class="section__newsletter_form" onsubmit="closeToast()">
+                    <div class="section__newsletter__input">
+                        <label for="Nome"></label>
+                        <input type="text" name="nome" placeholder="Digite seu Nome">
+                    </div>
+    
+                    <div class="section__newsletter__input">
+                        <label for="E-mail"></label>
+                        <input type="email" name="email" placeholder="Digite seu E-mail">
+                    </div>
+    
+                    <button class="section__newsletter__button" type="submit">
+                        <span>Eu quero</span>
+                    </button>
+                </form>
+
+            </section>
+        </main>
+    
+        <div class="toast">
+            <h1 class="toast__text">toast</h1>
+        </div>
+    
+        <footer>
+            
+            <aside class="aside">
+
+                <section id="section__social-media__title__container">
+                    <p class="section__social-media__title">Siga-nos nas nossas Redes Sociais:</p>
+                </section>
+
+                <section class="section__social-media__icons__content">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./img/icons/instagram-footer.png" alt="Instagram" width="1%"></a>
+    
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="./img/icons/linkedin-footer.png" alt="LinkedIn" width="1%"></a>
+    
+                    <a href="https://www.https:/github.com/" target="_blank"><img src="./img/icons/git-footerr.png" alt="github" width="1%"></a>
+                </section>
+
+                <div class="aside__direitos">
+                    <p>Todos os direitos reservados para MulheresTech! &#169</p>
+                </div>
+
+            </aside>
+        </footer>
+            
+    <script type="module" src="js/script.js"></script>
+
+</body>
+</html>

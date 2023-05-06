@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Gloria+Hallelujah&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.txt__Main {
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    color: var(--white-body);
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 1000;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5rem;
+}
+
+.section__highlights {
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    overflow: hidden;
+}
+
+.section__persona {
+    color: var(--purple);
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 300px;
+    max-height: 450px;
+    background-color: var(--blue-button);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+  
+.section__persona:hover {
+    transform: scale(1.04);
+}
+  
+.section__persona a {
+    color: var(--white-text);
+    text-decoration: none;
+}
+
+.section__persona a:hover {
+    transform: scale(1.04);
+}
+  
+.section__persona__img {
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.section__persona__description {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+}
+
+.section__persona__description::first-letter {
+    text-transform: uppercase;
+}
+
+.txt__description {
+    font-size: 1.6rem;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+}
+
+.section__persona__button {
+    background-color: var(--purple);
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 30px;
+    cursor: pointer;
+    width: 170px;
+    transition: 0.35s ease;
+}
+
+.slider-container {
+    max-width: 78vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+}
+  
+.slider-container .slider-carrousel {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+  
+.slider-container .slider-carrousel .section__persona {
+    background-color: var(--white-body);
+    margin: 10px;
+    padding: 10px;
+    width: 450px;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--purple);
+    border-radius: 20px;
+}
+
+.slider-container .slider-carrousel .section__persona img {
+    width: 90%;
+    height: 110%;
+}
+
+.slider-container .arrowButton {
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slider-container .arrowButton:last-child {
+    transform: rotate(180deg);
+}
+
+.section__persona__button {
+    background-color: var(--purple);
+    border: none;
+    border-radius: 20px 10px;
+    color: var(--white-text);
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 50%;
+    transition: 0.55s ease;
+}
+
+.section__persona__button:hover {
+    transform: scale(1.01);
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+  
+.section__persona__button a {
+    color: var(--white-text);
+}
+  
+.section__persona__button a:hover {
+    transform: scale(1.01);
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
+
+

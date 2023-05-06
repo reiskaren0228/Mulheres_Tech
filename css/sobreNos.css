@@ -1,0 +1,132 @@
+:root {
+    --purple: #8c65a4;
+    --blue_cx: #4f3eebfa;
+    --pink_titulo: #f547a9;
+    --grey-background: #3d3c3c;
+    --white-text: #f5f5dc;
+    --grey-text: #ddd4d4;
+    --grey-bloco: #4b4747;
+    --blue_background: #00082d;
+    
+  
+   /*
+    * BreakPoints - Tamanho de telas
+  */
+  
+    --lteLarge: 1010px;
+    --lteMedium: 720px;
+    --lteSmall: 500px;
+}
+
+body {
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    color: var(--white-text);
+}
+
+.main {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50rem;
+}
+
+.section {
+    margin: 180px auto;
+    padding: 8px;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.section__titulo {
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--pink_titulo);
+    margin: 30px 0;
+    text-align: center;
+}
+.conteiner__historia {
+    background-color: var(--blue_cx);
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.imgs__ilustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.imgs__visual {
+    width: 450px;
+    height: 350px;
+    max-width: 550px;
+    border-radius: 10%;
+    border: 6px solid var(--purple);
+    margin-left: 1%;
+    padding: 3px;
+}
+
+.imgs__visual_2 {
+    width: 250px;
+    height: 300px;
+    max-width: 550px;
+    border-radius: 10%;
+    border: 6px solid var(--purple);
+    margin-left: 1%;
+    padding: 3px;
+}
+
+.imgs__txt {
+    text-align: center;
+    font-size: 12px;
+}
+
+.historia__descricao {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 18px 28px;
+    text-align: center;
+}
+
+b {
+    color: var(--blue_background);
+}
+
+.referencias__descricao {
+    font-size: 12px;
+    font-weight: 200;
+    margin: 8px 0;
+}
+
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: var(--pink_titulo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.span__text {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--grey-bloco);
+    display: flex;
+    align-items: center;
+}
+
+.span__footer__icones {
+    margin: 0 8px;
+    width: 24px;
+    animation: pulsar 1s infinite alternate;
+}
+
