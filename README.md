@@ -8,12 +8,8 @@ Muito obrigado!
 
 
 ## **QR_Code do Site**
-<<<<<<< HEAD
 
-!<img src="./img/icons/Mulheres Tech_QRcode.svg" alt="menu" width="43px" height="45px">
-=======
-![Mulheres Tech](https://user-images.githubusercontent.com/83614778/236594519-1056cca6-5ebd-4762-9863-1a637868c356.png)
+[Mulheres Tech](https://user-images.githubusercontent.com/83614778/236594519-1056cca6-5ebd-4762-9863-1a637868c356.png)
 
 
 
->>>>>>> 2f63676f86d6e8f6d52d221f328c0264b81a4e20
